@@ -13,6 +13,14 @@ namespace Matematik
 
             dortIslem.Topla(1, 6);
 
+            Console.WriteLine("---------ÇARPMA--------");
+
+            dortIslem.Carp(2, 3);
+            dortIslem.Carp(2, 1, 5);
+
+            Console.WriteLine("-----HEPSİ DAHİL TOPLA----");
+
+            dortIslem.Hepsi(2, 1, 3, 7, 2);
 
         }
     }
